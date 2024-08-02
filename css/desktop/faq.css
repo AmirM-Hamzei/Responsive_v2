@@ -1,0 +1,54 @@
+.faq {
+	width: inherit;
+	background-color: initial;
+	margin: 130px 0;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	font-family: Poppins;
+	text-align: left;
+	.heading {
+		width: 25%;
+		h2 {
+			font-size: 38px;
+			font-weight: 600;
+			line-height: 56px;
+		}
+		a {
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: 600;
+			line-height: 32px;
+			color: var(--textColor__Blue);
+		}
+	}
+	.question {
+		width: 50%;
+		.accordion {
+			.accordion-item {
+				.accordion-header {
+					.accordion-button {
+						span:nth-of-type(1) {
+							margin-right: 5%;
+							font-size: 24px;
+							font-weight: 600;
+							line-height: 36px;
+							color: var(--textColor__Blue);
+						}
+						span:nth-of-type(2) {
+							font-size: 24px;
+							font-weight: 600;
+							text-align: left;
+							line-height: 36px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.accordion-flush > .accordion-item > .accordion-header .accordion-button,
+.accordion-flush > .accordion-item > .accordion-header .accordion-button.collapsed {
+	height: 100px;
+}

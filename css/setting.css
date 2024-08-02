@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+    /* src: url(../fonts/Poppins-Black.ttf);
+    src: url(../fonts/Poppins-BlackItalic.ttf);
+    src: url(../fonts/Poppins-Bold.ttf);
+    src: url(../fonts/Poppins-BoldItalic.ttf);
+    src: url(../fonts/Poppins-ExtraBold.ttf);
+    src: url(../fonts/Poppins-ExtraBoldItalic.ttf);
+    src: url(../fonts/Poppins-ExtraLight.ttf);
+    src: url(../fonts/Poppins-ExtraLightItalic.ttf);
+    src: url(../fonts/Poppins-Italic.ttf);
+    src: url(../fonts/Poppins-Light.ttf);
+    src: url(../fonts/Poppins-LightItalic.ttf);
+    src: url(../fonts/Poppins-Medium.ttf);
+    src: url(../fonts/Poppins-MediumItalic.ttf);
+    src: url(../fonts/Poppins-SemiBold.ttf);
+    src: url(../fonts/Poppins-SemiBoldItalic.ttf);
+    src: url(../fonts/Poppins-Thin.ttf);
+    src: url(../fonts/Poppins-ThinItalic.ttf); */
+}
+@font-face {
+    font-family: Manrope;
+    src: url(../fonts/Manrope-VariableFont_wght.ttf);
+}
+::-webkit-scrollbar {
+	width: 0.5rem;
+}
+::-webkit-scrollbar-track {
+	background-color: #f0f0f1;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #c0c2c5;
+}
+:root{
+    --Color__RoyalBlue : #2405f2;
+    --Color__TintBlue : #1c1e53;
+    --Color__DarkBlue : #282938;
+    --Color__Yellow : #fcd980;
+    --Color__Gray : #f4f6fc;
+    --Color_Accent : #eef4fa;
+    --bgColor__TintBlue : #1c1e53;
+    --bgColor__Gray : #f4f6fc;
+    --bgColor__White : #ffffff;
+    --bgColor__Yellow : #fcd980;
+    --textColor__Black : #000000;
+    --textColor__Blue : #2405f2;
+    --textColor__Darkblue : #282938;
+    --textColor__Yellow : #fcd980;
+    --textColor__White : #ffffff;
+    --textColor__Menu : #bbbbcb;
+}
+.wrapper {
+	width: 100%;
+}

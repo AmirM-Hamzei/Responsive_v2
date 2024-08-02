@@ -1,0 +1,62 @@
+.features {
+	width: inherit;
+	background-color: var(--bgColor__Gray);
+	padding: 130px 0;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: center;
+    row-gap: 50px;
+	font-family: Poppins;
+	color: var(--textColor__Darkblue);
+	text-align: center;
+	h3 {
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 28px;
+	}
+	h2 {
+		width: 50%;
+		margin: auto;
+		font-size: 48px;
+		font-weight: 600;
+		line-height: 64px;
+	}
+	.card__box {
+		width: 85%;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+        column-gap: 20px;
+        row-gap: 20px;
+		.card {
+			width: 400px;
+            padding: 50px 40px;
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: flex-start;
+            row-gap: 20px;
+			text-align: left;
+			img {
+				width: 32px;
+				object-fit: cover;
+			}
+			h2 {
+                width: 100%;
+                margin: unset;
+				font-size: 24px;
+				font-weight: 400;
+				line-height: 36px;
+			}
+			p {
+                width: 100%;
+                margin: unset;
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 28px;
+			}
+		}
+	}
+}

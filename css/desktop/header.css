@@ -1,0 +1,132 @@
+header {
+	width: inherit;
+	background-color: var(--bgColor__TintBlue);
+	.menu {
+		width: inherit;
+		padding: 16px 0;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		align-items: center;
+		.logo {
+			width: 20%;
+			height: 24.71px;
+			display: flex;
+			svg {
+				justify-self: flex-start;
+				align-self: center;
+			}
+		}
+		input, label {
+			display: none;
+		}
+		.pages {
+			nav {
+				ul {
+					list-style: none;
+					margin: unset;
+					padding: unset;
+					display: flex;
+					flex-flow: row nowrap;
+					justify-content: space-between;
+					align-items: center;
+					column-gap: 32px;
+					li {
+						display: flex;
+						align-items: center;
+						a {
+							font-family: Poppins;
+							font-size: 16px;
+							font-weight: 500;
+							line-height: 28px;
+							color: var(--textColor__Menu);
+							text-decoration: none;
+							text-transform: capitalize;
+							&:hover {
+                                color: var(--textColor__White);
+                            }
+						}
+					}
+				}
+			}
+		}
+	}
+	.building {
+		width: inherit;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-evenly;
+		align-items: center;
+		.b__Section {
+			width: 40%;
+			margin: 130px 0px;
+			color: var(--textColor__White);
+			font-family: Poppins;
+			text-align: left;
+			h1 {
+				font-size: 54px;
+				font-weight: 600;
+				line-height: 74px;
+			}
+			p {
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 28px;
+			}
+			img {
+				width: 80%;
+				object-fit: contain;
+			}
+			.view {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: flex-start;
+				align-items: center;
+				column-gap: 15px;
+				a {
+					width: 35%;
+					min-width: 220px;
+					padding: 16px;
+				}
+				.btn__work {
+					background-color: var(--bgColor__Yellow);
+					color: var(--textColor__Black);
+					font-family: Manrope;
+					font-size: 18px;
+					font-weight: 600;
+					line-height: 32px;
+				}
+				.btn__pricing {
+					font-family: Poppins;
+					font-size: 16px;
+					font-weight: 500;
+					line-height: 28px;
+					color: var(--textColor__White);
+					column-gap: 15px;
+				}
+			}
+		}
+	}
+}
+.active {
+	color: #fff !important;
+	pointer-events: none !important;
+}
+.contactBtn {
+	margin-left: 20px;
+	width: 185px;
+	height: 60px;
+	border-radius: 41px;
+	border: 2px solid #f4f6fc33;
+}
+.btn {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	border-radius: 41px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
